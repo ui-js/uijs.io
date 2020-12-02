@@ -1,0 +1,124 @@
+{
+    "layout": "default.html",
+    "locale": "en-US",
+    "title": "ui-js",
+    "masthead_title": "ui-<em>js</em>",
+    "title_separator": "-",
+    "name": "ui-js",
+    "description": "A collection of web native components",
+    "url": "https://uijs.io",
+    "baseurl": "",
+    "repository": "@ui-js/uijs.io",
+    "teaser": null,
+    "words_per_minute": 200,
+    "comments": {
+        "provider": null
+    },
+    "reCaptcha": {
+        "siteKey": null,
+        "secret": null
+    },
+    "atom_feed": {
+        "path": null
+    },
+    "search": false,
+    "search_full_content": null,
+    "search_provider": null,
+    "google": {
+        "search_engine_id": null,
+        "instant_search": null
+    },
+    "google_site_verification": null,
+    "bing_site_verification": null,
+    "yandex_site_verification": null,
+    "naver_site_verification": null,
+    "twitter": {
+        "username": null
+    },
+    "facebook": {
+        "username": null,
+        "app_id": null,
+        "publisher": null
+    },
+    "og_image": null,
+    "social": {
+        "type": "Organization",
+        "name": "ui-js",
+        "links": null
+    },
+    "author": {
+        "name": "Arno Gourdol",
+        "avatar": null,
+        "bio": "",
+        "location": "San Francisco",
+        "email": null,
+        "links": [
+            {
+                "label": "Email",
+                "icon": "fas fa-fw fa-envelope-square",
+                "url": "mailto:info@uijs.io"
+            },
+            {
+                "label": "Website",
+                "icon": "fas fa-fw fa-link"
+            },
+            {
+                "label": "Twitter",
+                "icon": "fab fa-fw fa-twitter-square"
+            },
+            {
+                "label": "Facebook",
+                "icon": "fab fa-fw fa-facebook-square"
+            },
+            {
+                "label": "GitHub",
+                "icon": "fab fa-fw fa-github",
+                "url": "https://github.com/ui-js"
+            },
+            {
+                "label": "Instagram",
+                "icon": "fab fa-fw fa-instagram"
+            }
+        ]
+    },
+    "footer": {
+        "links": [
+            {
+                "label": "Twitter",
+                "icon": "fab fa-fw fa-twitter-square"
+            },
+            {
+                "label": "Facebook",
+                "icon": "fab fa-fw fa-facebook-square"
+            },
+            {
+                "label": "GitHub",
+                "icon": "<svg class='icon1em'><use role='none' xlink:href='/assets/icons.svg#github'></use></svg>",
+                "url": "https://github.com/ui-js"
+            },
+            {
+                "label": "GitLab",
+                "icon": "fab fa-fw fa-gitlab"
+            },
+            {
+                "label": "Bitbucket",
+                "icon": "fab fa-fw fa-bitbucket"
+            },
+            {
+                "label": "Instagram",
+                "icon": "fab fa-fw fa-instagram"
+            },
+            {
+                "label": "Gitter",
+                "icon": "<svg class='icon1em'><use role='none' xlink:href='/assets/icons.svg#gitter'></use></svg>",
+                "url": "https://gitter.im/cortex-js"
+            }
+        ],
+        "pages": [
+            {
+                "label": "About Us",
+                "url": "/about"
+            }
+        ]
+    }
+}

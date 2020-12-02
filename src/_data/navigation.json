@@ -1,0 +1,50 @@
+{
+    "main": [
+        {
+            "description": "Chat on Gitter",
+            "title": "<svg class='icon1em'><use role='none' xlink:href='/assets/icons.svg#gitter'></use></svg>",
+            "url": "https://gitter.im/cortex-js"
+        },
+        {
+            "title": "<svg class='icon1em'><use role='none' xlink:href='/assets/icons.svg#github'></use></svg>",
+            "url": "https://github.com/ui-js",
+            "description": "Get source code on GitHub"
+        }
+    ],
+    "sidebar": [
+        {
+            "title": "Introduction",
+            "url": "/"
+        },
+        {
+            "title": "Menus",
+            "children": [
+                {
+                    "title": "Context Menu",
+                    "url": "/guides/menus/#(%22context-menu-element%22%3Amodule).(UIContextMenuElement%3Aclass)"
+                }
+            ]
+        },
+        {
+            "title": "Contributing",
+            "children": [
+                {
+                    "title": "Reporting Issues",
+                    "url": "/docs/reporting-issues/"
+                },
+                {
+                    "title": "Funding",
+                    "url": "/funding/"
+                },
+                {
+                    "title": "Code of Conduct",
+                    "url": "/docs/code-of-conduct/"
+                },
+                {
+                    "title": "License",
+                    "url": "/docs/license/"
+                }
+            ]
+        }
+    ]
+}

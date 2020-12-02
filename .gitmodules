@@ -1,0 +1,12 @@
+[submodule "submodules/ui-js.github.io"]
+	path = submodules/ui-js.github.io
+	url = https://github.com/ui-js/ui-js.github.io.git
+	branch = main
+[submodule "submodules/web-components"]
+	path = submodules/web-components
+	url = https://github.com/ui-js/web-components.git
+	branch = main
+[submodule "submodules/grok"]
+	path = submodules/grok
+	url = https://github.com/ui-js/grok.git
+	branch = master
