@@ -11,7 +11,6 @@ cd "$(dirname "$0")/.."
 
 ./scripts/setup.sh
 ./scripts/build.sh production
-./scripts/test.sh
 
 # Add the .nojekyll file to prevent GH Pages from processing the content
 touch submodules/ui-js.github.io/.nojekyll

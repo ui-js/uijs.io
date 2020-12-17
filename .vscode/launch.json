@@ -18,6 +18,15 @@
                 "--verbose",
                 "--ignore-errors"
             ]
+        },
+        {
+            "name": "build-guides",
+            "type": "node",
+            "request": "launch",
+            "skipFiles": ["<node_internals>/**"],
+            // "preLaunchTask": "npm: build",
+            "program": "${workspaceFolder}/scripts/build-guides.js",
+            "args": []
         }
     ]
 }

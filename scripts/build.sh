@@ -31,8 +31,8 @@ mkdir -p ./submodules/ui-js.github.io/assets/js/
 cp ./node_modules/@ui-js/code-playground/dist/code-playground.js ./submodules/ui-js.github.io/assets/js/code-playground.js
 cp -r ./submodules/web-components/dist/* ./submodules/ui-js.github.io/assets/js
 
-## Collect all the relevant markdown files
-node ./scripts/build-md.js
+## Collect all the guides in the src/ directory
+node ./scripts/build-guides.js
 
 ## Build (.md -> .html)
 # DEBUG=Eleventy* npx eleventy --config ./config/eleventy.js

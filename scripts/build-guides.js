@@ -42,6 +42,7 @@ function escapeHTML(s) {
 
 /** Parse a single ``` block */
 function parseCodeFence(lines, index) {
+    if (index >= lines.length) return undefined;
     if (lines[index][0] !== '`' && lines[index][0] !== '~') return undefined;
     let fence = lines[index][0];
     for (let i = 1; i < lines[index].length; i++) {
@@ -105,7 +106,7 @@ function parseCodeFences(lines, i) {
             ...result,
             '\n',
             '\n',
-            '<code-playground layout="stack" class="m-lg w-full-lg">',
+            '<code-playground layout="stack" class="m-lg w-full-lg" output-stylesheets="/assets/js/ui.css">',
             '<style slot="style">' + INJECTED_STYLESHEET + '</style>',
         ];
 
@@ -200,6 +201,7 @@ const run = async (dir) => {
                     frontmatter.head.stylesheets = [
                         ...(frontmatter.stylesheets ?? []),
                         'https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.58.3/codemirror.min.css',
+                        '/assets/js/ui.css',
                     ];
                     frontmatter.head.scripts = [
                         ...(frontmatter.scripts ?? []),

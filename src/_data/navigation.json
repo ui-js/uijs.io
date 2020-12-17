@@ -14,14 +14,32 @@
     "sidebar": [
         {
             "title": "Introduction",
-            "url": "/"
+            "url": "/",
+            "children": [
+                {
+                    "title": "Essentials",
+                    "url": "/essentials/"
+                }
+            ]
+        },
+        {
+            "title": "CSS",
+            "url": "/guides/css/"
         },
         {
             "title": "Menus",
             "children": [
                 {
+                    "title": "Introduction",
+                    "url": "/guides/menus/"
+                },
+                {
                     "title": "Context Menu",
-                    "url": "/guides/menus/#(%22context-menu-element%22%3Amodule).(UIContextMenuElement%3Aclass)"
+                    "url": "/guides/context-menu/"
+                },
+                {
+                    "title": "Popup Menu",
+                    "url": "/guides/popup-menu/"
                 }
             ]
         },
