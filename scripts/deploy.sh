@@ -25,10 +25,10 @@ fi
 # ui-js.github.io as a submodule.
 cd "./submodules/ui-js.github.io"
 git fetch
-git checkout master
+git checkout main
 git add .
 git commit -a -m "`date +\"%Y-%m-%d\"`"
-git push origin master:master
+git push origin main:main
 
 tput rc;tput el # rc = restore cursor, el = erase to end of line
 
