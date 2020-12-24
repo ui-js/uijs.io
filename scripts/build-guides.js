@@ -174,7 +174,9 @@ function upgradeCodeFences(content) {
 
 const run = async (dir) => {
     for await (const x of walk(dir)) {
-        if (x.endsWith('.md')) {
+        if (x.endsWith('.png')) {
+            fs.copy(x, path.resolve('./src/build/assets', path.basename(x)));
+        } else if (x.endsWith('.md')) {
             fs.readFile(x, 'utf8', (err, file) => {
                 const graymatter = matter(file);
                 const frontmatter = graymatter.data;

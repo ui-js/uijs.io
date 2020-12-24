@@ -82,6 +82,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy('src/assets');
     // Copy the `src/build` directory to the compiled site folder
     eleventyConfig.addPassthroughCopy({ 'src/build/css': 'assets/css' });
+    eleventyConfig.addPassthroughCopy({ 'src/build/assets': 'assets' });
 
     eleventyConfig.setDataDeepMerge(true);
 

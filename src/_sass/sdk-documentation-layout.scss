@@ -295,6 +295,11 @@ strong var {
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
 
+.card[disabled] {
+    opacity: 0.5;
+    pointer-events: none;
+}
+
 .card h3 {
     // display: flex;
     // justify-content: space-between;
@@ -338,6 +343,9 @@ strong var {
     white-space: normal;
 }
 
+.page__content .card:hover > a:not(.btn) img {
+    box-shadow: none;
+}
 h4 {
     font-size: $h4-font-size;
     font-weight: 700;

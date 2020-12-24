@@ -10,3 +10,7 @@
 	path = submodules/grok
 	url = https://github.com/ui-js/grok.git
 	branch = master
+[submodule "submodules/prismatic"]
+	path = submodules/prismatic
+	url = https://github.com/ui-js/chromatic.git
+	branch = master

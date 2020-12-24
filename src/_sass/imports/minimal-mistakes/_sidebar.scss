@@ -62,12 +62,14 @@
         line-height: 1.5;
         padding: 4px;
         padding-left: 8px;
+        border-radius: 4px;
 
         a {
             display: block;
             border-radius: 4px;
             &.active {
-                background: #ddd;
+                color: white !important;
+                background: $primary;
             }
         }
     }
@@ -80,6 +82,10 @@
             height: 20px;
         }
     }
+}
+
+.sidebar ul:not(.nav__items) li:hover {
+    background: rgba(0, 0, 0, 0.05);
 }
 
 .sidebar__right {

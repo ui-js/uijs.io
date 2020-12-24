@@ -14,28 +14,35 @@
     "sidebar": [
         {
             "title": "Introduction",
-            "url": "/",
             "children": [
                 {
-                    "title": "Essentials",
-                    "url": "/essentials/"
+                    "title": "Welcome",
+                    "url": "/"
+                },
+                {
+                    "title": "Conventions",
+                    "url": "/conventions/"
                 }
             ]
         },
         {
-            "title": "Button",
-            "url": "/guides/button/"
-        },
-        {
-            "title": "Menus",
+            "title": "Components",
             "children": [
                 {
-                    "title": "Introduction",
-                    "url": "/guides/menus/"
+                    "title": "Button",
+                    "url": "/guides/button/"
+                },
+                {
+                    "title": "Buttons",
+                    "url": "/guides/buttons/"
                 },
                 {
                     "title": "Context Menu",
                     "url": "/guides/context-menu/"
+                },
+                {
+                    "title": "Menus",
+                    "url": "/guides/menus/"
                 },
                 {
                     "title": "Popup Menu",
