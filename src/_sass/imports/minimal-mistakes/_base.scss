@@ -117,7 +117,7 @@ blockquote {
     font-style: italic;
 
     &:before {
-      content: "\2014";
+      content: '\2014';
       padding-right: 5px;
     }
   }
@@ -174,7 +174,7 @@ td > code {
   &:before,
   &:after {
     letter-spacing: -0.2em;
-    content: "\00a0"; /* non-breaking space*/
+    content: '\00a0'; /* non-breaking space*/
   }
 }
 
@@ -207,25 +207,23 @@ li ol {
 /* Figures and images */
 
 figure {
-  display: -webkit-box;
   display: flex;
-  -webkit-box-pack: justify;
   justify-content: space-between;
-  -webkit-box-align: start;
   align-items: flex-start;
   flex-wrap: wrap;
+  flex-flow: column;
   margin: 2em 0;
 
   img,
   iframe,
   .fluid-width-video-wrapper {
     margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   img {
-    width: 100%;
     border-radius: $border-radius;
-    -webkit-transition: $global-transition;
     transition: $global-transition;
   }
 
@@ -267,6 +265,8 @@ figcaption {
   color: $muted-text-color;
   font-family: $caption-font-family;
   font-size: $type-size-6;
+  margin-left: auto;
+  margin-right: auto;
 
   a {
     -webkit-transition: $global-transition;
@@ -349,7 +349,7 @@ a,
 tr,
 td,
 form button,
-input[type="submit"],
+input[type='submit'],
 .btn,
 .highlight,
 .archive__item-teaser {

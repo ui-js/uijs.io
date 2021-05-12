@@ -1,75 +1,105 @@
 {
-    "main": [
+  "main": [
+    {
+      "description": "ui-js Blog",
+      "title": "Blog",
+      "url": "/blog"
+    },
+    {
+      "description": "Web Components Documentation",
+      "title": "Web Components",
+      "url": "/web-components"
+    },
+    {
+      "description": "Chat on Gitter",
+      "title": "<svg class='icon1em'><use role='none' xlink:href='/assets/icons.svg#gitter'></use></svg>",
+      "url": "https://gitter.im/cortex-js"
+    },
+    {
+      "title": "<svg class='icon1em'><use role='none' xlink:href='/assets/icons.svg#github'></use></svg>",
+      "url": "https://github.com/ui-js",
+      "description": "Get source code on GitHub"
+    }
+  ],
+  "web-components-sidebar": [
+    {
+      "title": "Introduction",
+      "children": [
         {
-            "description": "Chat on Gitter",
-            "title": "<svg class='icon1em'><use role='none' xlink:href='/assets/icons.svg#gitter'></use></svg>",
-            "url": "https://gitter.im/cortex-js"
+          "title": "Welcome",
+          "url": "/web-components"
         },
         {
-            "title": "<svg class='icon1em'><use role='none' xlink:href='/assets/icons.svg#github'></use></svg>",
-            "url": "https://github.com/ui-js",
-            "description": "Get source code on GitHub"
+          "title": "Conventions",
+          "url": "/web-components/conventions/"
         }
-    ],
-    "sidebar": [
+      ]
+    },
+    {
+      "title": "Components",
+      "children": [
         {
-            "title": "Introduction",
-            "children": [
-                {
-                    "title": "Welcome",
-                    "url": "/"
-                },
-                {
-                    "title": "Conventions",
-                    "url": "/conventions/"
-                }
-            ]
+          "title": "Button",
+          "url": "/web-components/button/"
         },
         {
-            "title": "Components",
-            "children": [
-                {
-                    "title": "Button",
-                    "url": "/guides/button/"
-                },
-                {
-                    "title": "Buttons",
-                    "url": "/guides/buttons/"
-                },
-                {
-                    "title": "Context Menu",
-                    "url": "/guides/context-menu/"
-                },
-                {
-                    "title": "Menus",
-                    "url": "/guides/menus/"
-                },
-                {
-                    "title": "Popup Menu",
-                    "url": "/guides/popup-menu/"
-                }
-            ]
+          "title": "Buttons",
+          "url": "/web-components/buttons/"
         },
         {
-            "title": "Contributing",
-            "children": [
-                {
-                    "title": "Reporting Issues",
-                    "url": "/docs/reporting-issues/"
-                },
-                {
-                    "title": "Funding",
-                    "url": "/funding/"
-                },
-                {
-                    "title": "Code of Conduct",
-                    "url": "/docs/code-of-conduct/"
-                },
-                {
-                    "title": "License",
-                    "url": "/docs/license/"
-                }
-            ]
+          "title": "Context Menu",
+          "url": "/web-components/context-menu/"
+        },
+        {
+          "title": "Menus",
+          "url": "/web-components/menus/"
+        },
+        {
+          "title": "Popup Menu",
+          "url": "/web-components/popup-menu/"
         }
-    ]
+      ]
+    },
+    {
+      "title": "Blog",
+      "url": "/blog"
+    },
+    {
+      "title": "Contributing",
+      "children": [
+        {
+          "title": "Reporting Issues",
+          "url": "/docs/reporting-issues/"
+        },
+        {
+          "title": "Funding",
+          "url": "/funding/"
+        },
+        {
+          "title": "Code of Conduct",
+          "url": "/docs/code-of-conduct/"
+        },
+        {
+          "title": "License",
+          "url": "/docs/license/"
+        }
+      ]
+    }
+  ],
+  "blog-sidebar": [
+    {
+      "title": "Blog",
+      "url": "/blog",
+      "children": [
+        {
+          "title": "Part 1 - Introduction",
+          "url": "/blog/part-1-introduction"
+        }
+      ]
+    },
+    {
+      "title": "Web Components",
+      "url": "/web-components"
+    }
+  ]
 }
